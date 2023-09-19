@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopots - Tela Inicial</title>
+</head>
+<body>
+  <div id="tela1">
+    <h1>Bem-vindo ao Stopots!</h1>
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome">
+    <button onclick="confirmarEntrada()">Entrar</button>
+  </div>
+
+  <div id="tela2" style="display: none;">
+    <h1 id="mensagemBoasVindas"></h1>
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
